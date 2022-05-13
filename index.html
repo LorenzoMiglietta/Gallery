@@ -15,18 +15,17 @@
   </head>
   <body>
     <header>
-
-        <nav class="navbar navbar-expand-lg navbar-dark navbar-style">
+        <nav class="navbar navbar-expand-lg navbar-dark navbar-style fixed-top">
             <div class="container-fluid">
-                    <img class="logo-image" src="images/logo_bianco.png" alt="Logo">
-                    <a class="navbar-brand brand" href="#">Photos</a>
+                    
+                    <a class="navbar-brand brand" href="#"><img class="logo-image" src="images/logo_bianco.png" alt="Logo">Photos</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ms-auto">
                   <a class="nav-link" aria-current="page" href="#gallery">Gallery</a>
-                  <a class="nav-link" href="#about-me">About Meme</a>
+                  <a class="nav-link" href="#about-me">About Me</a>
                   <a class="nav-link" href="#contacts">Contacts</a>
                 </div>
               </div>
@@ -34,6 +33,8 @@
           </nav>
     </header>
     <main>
+
+
         <section class="random-photos">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
@@ -59,6 +60,7 @@
                   <span class="visually-hidden">Next</span>
                 </button>
               </div>
+              <!-- <img src="images/img4.jpg" alt=""> -->
         </section>
         <section class="my-gear">
             <div class="container-fluid container-apici">
@@ -74,14 +76,24 @@
             </div>
         </section>
       <section class="gallery" id="gallery"></section>
-      <section id="about-me"></section>
+      <section id="about-me">
+        
+      </section>
     </main>
     <footer>
-      <section id="contacts"></section>
+      <section id="contacts">
+        <a href="https://www.facebook.com"><i class="fab fa-facebook-f" ></i></a>
+        <a href="https://twitter.com/home?lang=it"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/loremigliephotos"><i class="fab fa-instagram"></i></a>
+      </section>
     </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/158231be4d.js"
       crossorigin="anonymous"
     ></script>
   </body>

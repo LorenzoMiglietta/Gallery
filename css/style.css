@@ -35,12 +35,13 @@ body{
 /* Random photos*/
 
 .random-photos{
-    margin: 7% 20%;
-    background-color: rgba(0, 0, 0, 0.733);
+    /* margin: 7% 0; */
+    /* background-color: rgba(0, 0, 0, 0.733); */
 }
 
 .random-photos img{
-    height: 700px;
+    height: 1000px;
+    width: 100vw;
     object-fit: contain;
 }
 
@@ -107,7 +108,25 @@ body{
 
 /* gallery */
 
+/* Footer */
 
+#contacts{
+    text-align: center;
+}
+
+/* FAB */
+
+.fab{
+    font-size: 2rem;
+    padding: 2rem;
+    margin: 0 2rem;
+    color:rgb(25, 37, 48);
+}
+
+.fab:hover,:focus{
+    color: rgb(47, 57, 67);
+    filter: drop-shadow(0 0 10px #363636);
+}
 
 /* media */
 @media (max-width:700px){
