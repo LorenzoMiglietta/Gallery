@@ -3,12 +3,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;700;900&family=Oleo+Script+Swash+Caps:wght@400;700&display=swap');
 
 
-/* Navbar*/
 
 body{
     font-family: 'Barlow';
     font-weight: 400;
 }
+
+
+/* Navbar*/
 
 .navbar-style{
     background-color: rgb(25, 37, 48);
@@ -26,7 +28,8 @@ body{
 }
 
 .logo-image{
-    margin: 0 15px;
+    margin: 0 10px;
+    width: 2rem;
 }
 
 /* Random photos*/
@@ -37,7 +40,7 @@ body{
 }
 
 .random-photos img{
-    height: 500px;
+    height: 700px;
     object-fit: contain;
 }
 
@@ -48,16 +51,79 @@ body{
 /* My gear */
 
 .my-gear{
-    position: relative;
-    margin: 7% 15%;
+    /* margin: 7% 30%; */
     background-color: rgb(25, 37, 48);
     text-align: center;
     color: white;
-    padding:2rem;
+    padding:2rem 3rem;
 }
 
 .my-gear h1{
     font-weight: 900;
-    margin: 0.5rem;
+    font-size: 7rem;
+    margin-bottom: 2rem;
+    padding-bottom: 1.2rem;
+    text-align: center;
+    border: 5px solid white;
+}
+
+.my-gear h2{
+    font-weight: 700;
     font-size: 3rem;
+}
+
+.my-gear p{
+    color: #8f8f8f;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.my-gear ul{
+    list-style: none;
+    margin-bottom: 1rem;
+}
+
+.container-apici{
+    /* background-color: red; */
+    position: relative;
+}
+
+.apici{
+    height: 8em;
+}
+
+.apici-image1{
+    position: absolute;
+    left: 5%;
+    top: -10%;
+}
+
+.apici-image2{
+    position: absolute;
+    transform: rotate(180deg);
+    right: 5%;
+    bottom: 40%;
+}
+
+/* gallery */
+
+
+
+/* media */
+@media (max-width:700px){
+    .random-photos img{
+        height: 400px;
+    }
+
+    .my-gear h1{
+        font-size: 5rem;
+    }
+
+    .my-gear{
+        /* margin: 7% 30%; */
+        background-color: rgb(25, 37, 48);
+        text-align: center;
+        color: white;
+        padding:2rem 2rem;
+    }
 }
