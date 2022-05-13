@@ -1,0 +1,63 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;700;900&family=Oleo+Script+Swash+Caps:wght@400;700&display=swap');
+
+
+/* Navbar*/
+
+body{
+    font-family: 'Barlow';
+    font-weight: 400;
+}
+
+.navbar-style{
+    background-color: rgb(25, 37, 48);
+}
+
+.navbar-style .brand{
+    font-weight: 900;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-style a{
+    font-size: 1.2rem;
+}
+
+.logo-image{
+    margin: 0 15px;
+}
+
+/* Random photos*/
+
+.random-photos{
+    margin: 7% 20%;
+    background-color: rgba(0, 0, 0, 0.733);
+}
+
+.random-photos img{
+    height: 500px;
+    object-fit: contain;
+}
+
+.random-photos img:hover{
+    /* Gestisci scritte sopra immagini*/
+}
+
+/* My gear */
+
+.my-gear{
+    position: relative;
+    margin: 7% 15%;
+    background-color: rgb(25, 37, 48);
+    text-align: center;
+    color: white;
+    padding:2rem;
+}
+
+.my-gear h1{
+    font-weight: 900;
+    margin: 0.5rem;
+    font-size: 3rem;
+}
