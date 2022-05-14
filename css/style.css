@@ -35,8 +35,8 @@ body{
 /* Random photos*/
 
 .random-photos{
-    /* margin: 7% 0; */
-    /* background-color: rgba(0, 0, 0, 0.733); */
+    margin: 3.5% 0 1% 0;
+    background-color: rgba(0, 0, 0, 0.236);
 }
 
 .random-photos img{
@@ -135,7 +135,20 @@ body{
     }
 
     .my-gear h1{
-        font-size: 5rem;
+        font-size: 3rem;
+    }
+
+    .my-gear h2{
+        font-weight: 700;
+        font-size: 2.5rem;
+    }
+
+    .my-gear p{
+        font-size: 1.2rem;
+    }
+
+    .navbar-style a{
+        font-size: 1rem;
     }
 
     .my-gear{
@@ -144,5 +157,11 @@ body{
         text-align: center;
         color: white;
         padding:2rem 2rem;
+    }
+
+    .fab{
+        font-size: 1.5rem;
+        padding: 1rem;
+        margin: 0 1rem;
     }
 }
